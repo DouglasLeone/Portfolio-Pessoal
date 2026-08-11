@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio Profissional de Douglas Leone - Desenvolvedor Back-end e Full Stack graduando em Análise e Desenvolvimento de Sistemas. Especialista em APIs REST, Arquitetura de Software, Automação de Processos e IA Aplicada.">
+  <meta name="keywords"
+    content="Douglas Leone, Desenvolvedor Backend, Full Stack, Node.js, TypeScript, APIs REST, Arquitetura de Software, Automação, IA Generativa, ADS">
+  <meta name="author" content="Douglas Leone">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://douglasleone.dev/">
+  <meta property="og:title" content="Douglas Leone | Desenvolvedor Back-end & Arquitetura de Software">
+  <meta property="og:description"
+    content="Sistemas robustos, APIs REST escaláveis, automações inteligentes e arquitetura limpa. Conheça meus projetos e diferenciais.">
+  <meta property="og:image" content="https://douglasleone.dev/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Douglas Leone | Desenvolvedor Back-end & Full Stack">
+  <meta property="twitter:description"
+    content="Desenvolvimento de software de alta performance, arquitetura limpa e automação de processos.">
+
+  <!-- Schema.org JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Douglas Leone",
+    "jobTitle": "Desenvolvedor Back-end & Full Stack",
+    "almaMater": "Análise e Desenvolvimento de Sistemas",
+    "knowsAbout": ["Back-end", "Arquitetura de Software", "APIs REST", "TypeScript", "Node.js", "Automação de Processos", "Inteligência Artificial Aplicada", "Clean Architecture"],
+    "sameAs": [
+      "https://github.com/DouglasLeone/",
+      "https://www.linkedin.com/in/douglas-leone-713a94376/"
+    ]
+  }
+  </script>
+
+  <title>Douglas Leone | Desenvolvedor Back-end & Arquitetura de Software</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome & Devicon Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navegação Fixa com Blur -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-code">&lt;</span>Douglas<span class="logo-accent">Leone</span><span class="logo-code">
+          /&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-link active">Início</a>
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#skills" class="nav-link">Stack & Arquitetura</a>
+        <a href="#services" class="nav-link">Serviços</a>
+        <a href="#projects" class="nav-link">Projetos</a>
+        <a href="#github-stats" class="nav-link">Estatísticas</a>
+        <a href="#timeline" class="nav-link">Trajetória</a>
+        <a href="#contact" class="nav-link btn-nav-cta">Contato</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-container">
+        <div class="hero-content animate-on-scroll">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Graduando em Análise e Desenvolvimento de Sistemas</span>
+          </div>
+
+          <h1 class="hero-title">
+            Douglas Leone
+          </h1>
+          <h2 class="hero-subtitle">
+            Desenvolvedor Back-end & <span class="text-gradient">Arquitetura de Software</span>
+          </h2>
+
+          <p class="hero-description">
+            Especializado em construir APIs REST escaláveis, sistemas robustos, automação de processos inteligentes e
+            soluções de alto impacto orientadas a código limpo e valor real.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-code"></i> Ver Projetos
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-regular fa-paper-plane"></i> Entrar em Contato
+            </a>
+            <a href="#" download="Douglas_Leone_CV.pdf" class="btn btn-outline" title="Baixar Currículo em PDF">
+              <i class="fa-solid fa-file-arrow-down"></i> Baixar CV
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/DouglasLeone/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+              class="social-link" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/douglas-leone-713a94376/" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn" class="social-link" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://wa.me/5586999455452?text=Ol%C3%A1%20Douglas,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-link" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="mailto:douglasleone09@gmail.com" aria-label="E-mail Profissional" class="social-link"
+              title="E-mail">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual animate-on-scroll">
+          <div class="code-window">
+            <div class="code-header">
+              <div class="code-buttons">
+                <span class="btn-circle"></span>
+                <span class="btn-circle"></span>
+                <span class="btn-circle"></span>
+              </div>
+              <span class="code-title">douglas-leone.config.ts</span>
+            </div>
+            <div class="code-body">
+              <pre><code><span class="code-keyword">import</span> { Developer } <span class="code-keyword">from</span> <span class="code-string">'@core/architecture'</span>;
+
+<span class="code-keyword">export const</span> <span class="code-var">DouglasLeone</span>: <span class="code-var">Developer</span> = {
+  <span class="code-prop">role</span>: <span class="code-string">'Back-end & Full Stack Developer'</span>,
+  <span class="code-prop">degree</span>: <span class="code-string">'Análise e Desenvolvimento de Sistemas'</span>,
+  <span class="code-prop">philosophy</span>: <span class="code-string">'Código limpo + Arquitetura bem feita'</span>,
+  <span class="code-prop">coreStack</span>: [<span class="code-string">'TypeScript'</span>, <span class="code-string">'Node.js'</span>, <span class="code-string">'APIs REST'</span>, <span class="code-string">'SQL'</span>, <span class="code-string">'React'</span>],
+  <span class="code-prop">specialties</span>: [<span class="code-string">'Automação de Processos'</span>, <span class="code-string">'IA Aplicada'</span>, <span class="code-string">'SaaS'</span>],
+  <span class="code-prop">status</span>: <span class="code-string">'Pronto para criar soluções reais 🚀'</span>
+};
+
+<span class="code-var">DouglasLeone</span>.<span class="code-method">executeCleanArchitecture</span>();</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mim & Filosofia Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-subtitle">Maturidade Técnica & Visão</span>
+          <h2 class="section-title">Sobre Mim</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text animate-on-scroll">
+            <p class="about-lead">
+              Sou <strong>Douglas Leone</strong>, graduando em Análise e Desenvolvimento de Sistemas. Meu objetivo
+              profissional é atuar como <strong>Desenvolvedor Back-end ou Full Stack</strong>, projetando e entregando
+              sistemas robustos, APIs de alta performance e automações que eliminam trabalho manual.
+            </p>
+            <p>
+              Estudo profundamente como as tecnologias funcionam internamente, aplicando conceitos como <strong>Clean
+                Architecture, SOLID, Repository Pattern e MVVM</strong>. Tenho facilidade em aprender novas ferramentas
+              rapidamente e transformar requisitos complexos em arquiteturas legíveis e sustentáveis.
+            </p>
+
+            <!-- Filosofia de Desenvolvimento -->
+            <div class="philosophy-box">
+              <h3 class="philosophy-title"><i class="fa-solid fa-compass"></i> Minha Filosofia de Desenvolvimento</h3>
+              <div class="philosophy-grid">
+                <div class="philosophy-item">
+                  <span class="philosophy-icon"><i class="fa-solid fa-code-merge"></i></span>
+                  <div>
+                    <strong>Código limpo economiza tempo</strong>
+                    <p>Facilidade de leitura, refatoração segura e menor custo de manutenção.</p>
+                  </div>
+                </div>
+                <div class="philosophy-item">
+                  <span class="philosophy-icon"><i class="fa-solid fa-diagram-project"></i></span>
+                  <div>
+                    <strong>Arquitetura reduz problemas futuros</strong>
+                    <p>Separação clara de responsabilidades e componentes desacoplados.</p>
+                  </div>
+                </div>
+                <div class="philosophy-item">
+                  <span class="philosophy-icon"><i class="fa-solid fa-bolt"></i></span>
+                  <div>
+                    <strong>Automação elimina o repetitivo</strong>
+                    <p>Otimização de rotinas operacionais para liberar foco estratégico.</p>
+                  </div>
+                </div>
+                <div class="philosophy-item">
+                  <span class="philosophy-icon"><i class="fa-solid fa-bullseye"></i></span>
+                  <div>
+                    <strong>Tecnologia deve resolver problemas reais</strong>
+                    <p>Foco na utilidade tangível do software para empresas e usuários.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Métricas e Resumo -->
+            <div class="about-stats-grid">
+              <div class="stat-card">
+                <span class="stat-number">ADS</span>
+                <span class="stat-label">Graduando em Análise e Dev. de Sistemas</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Foco em Soluções Reais & Código Limpo</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">APIs & IA</span>
+                <span class="stat-label">Arquitetura Backend & Automação</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stack & Arquitetura Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-subtitle">Tecnologias & Boas Práticas</span>
+          <h2 class="section-title">Stack Principal & Arquitetura</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Back-end & APIs -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-server"></i></div>
+              <h3>Back-end & APIs</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-solid fa-file-code"></i> TypeScript</span>
+              <span class="skill-pill"><i class="fa-brands fa-node-js"></i> Node.js</span>
+              <span class="skill-pill"><i class="fa-solid fa-code"></i> C# / .NET</span>
+              <span class="skill-pill"><i class="fa-solid fa-cubes"></i> Express</span>
+              <span class="skill-pill"><i class="fa-solid fa-network-wired"></i> APIs RESTful</span>
+              <span class="skill-pill"><i class="fa-solid fa-key"></i> JWT & Auth</span>
+            </div>
+          </div>
+
+          <!-- Linguagens & Arquitetura de Software -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-sitemap"></i></div>
+              <h3>Arquitetura & Padrões</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-solid fa-layer-group"></i> Clean Architecture</span>
+              <span class="skill-pill"><i class="fa-solid fa-shapes"></i> Princípios SOLID</span>
+              <span class="skill-pill"><i class="fa-solid fa-box"></i> Repository Pattern</span>
+              <span class="skill-pill"><i class="fa-solid fa-diagram-project"></i> Design Patterns</span>
+              <span class="skill-pill"><i class="fa-solid fa-shield-halved"></i> Contratos & DTOs</span>
+            </div>
+          </div>
+
+          <!-- Front-end & Mobile -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+              <h3>Front-end & Mobile</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-brands fa-react"></i> React 18</span>
+              <span class="skill-pill"><i class="fa-solid fa-mobile-screen"></i> React Native</span>
+              <span class="skill-pill"><i class="fa-solid fa-bolt"></i> Vite 7</span>
+              <span class="skill-pill"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+              <span class="skill-pill"><i class="fa-solid fa-palette"></i> Shadcn UI</span>
+              <span class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5 / CSS3</span>
+            </div>
+          </div>
+
+          <!-- Bancos de Dados & Cloud/DevOps -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-database"></i></div>
+              <h3>Bancos de Dados & DevOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+              <span class="skill-pill"><i class="fa-solid fa-bolt"></i> Supabase</span>
+              <span class="skill-pill"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="skill-pill"><i class="fa-solid fa-fire"></i> Firebase</span>
+              <span class="skill-pill"><i class="fa-brands fa-docker"></i> Docker</span>
+              <span class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+            </div>
+          </div>
+
+          <!-- IA Aplicada & Automação -->
+          <div class="skill-category-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-robot"></i></div>
+              <h3>IA Aplicada & Automações</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill"><i class="fa-solid fa-brain"></i> IA Generativa (Gemini API)</span>
+              <span class="skill-pill"><i class="fa-solid fa-terminal"></i> Prompt Engineering</span>
+              <span class="skill-pill"><i class="fa-solid fa-envelope-open-text"></i> Automação Mailgun / E-mails</span>
+              <span class="skill-pill"><i class="fa-solid fa-eye"></i> OCR & Extração de Dados</span>
+              <span class="skill-pill"><i class="fa-solid fa-gears"></i> Webhooks & Integrações</span>
+            </div>
+          </div>
+
+          <!-- Diferenciais Técnicos -->
+          <div class="skill-category-card highlight-card animate-on-scroll">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-star"></i></div>
+              <h3>Diferenciais Profissionais</h3>
+            </div>
+            <ul class="diferenciais-list">
+              <li><i class="fa-solid fa-check-double"></i> Foco em código limpo, arquitetura desacoplada e legibilidade</li>
+              <li><i class="fa-solid fa-check-double"></i> Experiência prática em Hackathons criando soluções sob pressão</li>
+              <li><i class="fa-solid fa-check-double"></i> Domínio de Back-end com capacidade de entrega no Front/Mobile</li>
+              <li><i class="fa-solid fa-check-double"></i> Aprendizado contínuo, autonomia e rápida adaptação técnica</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-subtitle">O que posso construir para sua empresa</span>
+          <h2 class="section-title">Serviços & Soluções</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <h3>APIs RESTful & Microsserviços</h3>
+            <p>Construção de APIs seguras, documentadas e escaláveis em Node.js e TypeScript com autenticação JWT e
+              validações rigorosas.</p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+            <h3>Automação de Processos & IA</h3>
+            <p>Desenvolvimento de rotinas automatizadas, extração inteligente de dados (OCR), engenharia de prompt e
+              integração com IA Generativa.</p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon"><i class="fa-solid fa-desktop"></i></div>
+            <h3>Sistemas Web & SaaS</h3>
+            <p>Criação de plataformas administrativas, sistemas financeiros, painéis de controle e soluções corporativas
+              completas.</p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Dashboards & Analytics</h3>
+            <p>Interfaces dinâmicas para monitoramento de métricas, relatórios em tempo real e visualização intuitiva de
+              dados operacionais.</p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon"><i class="fa-solid fa-plug"></i></div>
+            <h3>Integrações entre Sistemas</h3>
+            <p>Conexão entre diferentes plataformas via Webhooks e APIs para centralização e sincronização contínua de
+              dados.</p>
+          </div>
+
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+            <h3>Consultoria Técnica & Refatoração</h3>
+            <p>Análise de código existente, reorganização em Clean Architecture, padronização de repositórios e
+              otimização de performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos em Destaque Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-subtitle">Soluções Práticas</span>
+          <h2 class="section-title">Projetos em Destaque</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Filtros de Projetos -->
+        <div class="project-filters animate-on-scroll">
+          <button class="filter-btn active" data-filter="all">Todos os Projetos</button>
+          <button class="filter-btn" data-filter="ai">IA & Educação</button>
+          <button class="filter-btn" data-filter="email">Automação & E-mails</button>
+        </div>
+
+        <!-- Cards de Projetos -->
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- Projeto 1: Aula Criativa AI (Hackathon IFPI Piripiri) -->
+          <article class="project-card animate-on-scroll" data-category="ai">
+            <div class="project-image">
+              <img src="images/Aula-Criativa-AI.png" alt="Aula Criativa AI - Assistente Pedagógico BNCC"
+                class="project-card-img" loading="lazy">
+              <div class="project-overlay">
+                <a href="https://github.com/DouglasLeone/Hackathon-Cultura-Digital-BNCC" target="_blank"
+                  rel="noopener noreferrer" class="overlay-btn" title="Ver no GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-badge">Hackathon IFPI • IA Generativa & Educação</span>
+                <h3 class="project-title">Aula Criativa AI — Assistente Pedagógico BNCC</h3>
+              </div>
+              <p class="project-description">
+                Assistente inteligente para auxílio de professores no planejamento docente, gerando planos de aula
+                automáticos, sugestões de temas, atividades e roteiros de slides 100% alinhados à BNCC.
+              </p>
+              <div class="project-challenges">
+                <strong><i class="fa-solid fa-triangle-exclamation"></i> Meu Papel & Arquitetura:</strong>
+                Desenvolvimento Frontend & UI/UX — Arquitetura Clean + MVVM em React 18, Vite 7, TypeScript,
+                TailwindCSS, Shadcn UI, Framer Motion e consumo da API Gemini AI.
+              </div>
+              <div class="project-techs">
+                <span>TypeScript</span>
+                <span>React 18</span>
+                <span>Vite 7</span>
+                <span>Gemini AI</span>
+                <span>Tailwind</span>
+                <span>Shadcn UI</span>
+                <span>Firebase</span>
+                <span>Clean Architecture</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projeto 2: MailWatch (Hackathon IFPI) -->
+          <article class="project-card animate-on-scroll" data-category="email">
+            <div class="project-image">
+              <img src="images/MailWatch.png" alt="MailWatch - Gestão Inteligente de E-mails" class="project-card-img"
+                loading="lazy">
+              <div class="project-overlay">
+                <a href="https://github.com/DouglasLeone/MailWatch" target="_blank" rel="noopener noreferrer"
+                  class="overlay-btn" title="Ver no GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-badge">Hackathon IFPI • Automação & E-mails</span>
+                <h3 class="project-title">MailWatch — Gestão Inteligente de E-mails</h3>
+              </div>
+              <p class="project-description">
+                Solução completa desenvolvida no Hackathon IFPI para captura via Mailgun (CC), classificação por
+                estado/município, gestão de pendentes, busca e exportação em dashboard em tempo real.
+              </p>
+              <div class="project-challenges">
+                <strong><i class="fa-solid fa-triangle-exclamation"></i> Meu Papel & Desafio:</strong> Desenvolvimento
+                Frontend & Integração — comunicação fluida entre React/Vite/TypeScript e a API Node.js/Express,
+                refinamento da UX e sincronização de dados.
+              </div>
+              <div class="project-techs">
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>Vite</span>
+                <span>TailwindCSS</span>
+                <span>Node.js</span>
+                <span>PostgreSQL</span>
+                <span>Mailgun API</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Estatísticas & GitHub Integration Section -->
+    <section class="section github-stats-section" id="github-stats">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-subtitle">Métricas de Desenvolvimento</span>
+          <h2 class="section-title">Estatísticas & Atividade GitHub</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Módulos de Números -->
+        <div class="numeric-stats-grid animate-on-scroll">
+          <div class="num-stat-card">
+            <span class="num-stat-val" id="ghYears">3+</span>
+            <span class="num-stat-lbl">Anos de Atividade</span>
+          </div>
+          <div class="num-stat-card">
+            <span class="num-stat-val" id="ghRepos">24</span>
+            <span class="num-stat-lbl">Repositórios Públicos</span>
+          </div>
+          <div class="num-stat-card">
+            <span class="num-stat-val" id="ghFollowers">25</span>
+            <span class="num-stat-lbl">Seguidores no GitHub</span>
+          </div>
+          <div class="num-stat-card">
+            <span class="num-stat-val" id="ghStars">3+</span>
+            <span class="num-stat-lbl">Stars em Projetos</span>
+          </div>
+        </div>
+
+        <!-- Grade de Ícones Oficiais das Tecnologias Categorizada e Centralizada -->
+        <div class="tech-stack-icons-box animate-on-scroll">
+          <h3 class="tech-box-title"><i class="fa-solid fa-layer-group"></i> Ecossistema & Tecnologias Principais</h3>
+          
+          <!-- Categoria 1: Back-end & Banco de Dados -->
+          <div class="tech-category-group">
+            <h4 class="tech-group-subtitle"><i class="fa-solid fa-server"></i> Back-end & Banco de Dados</h4>
+            <div class="tech-icons-grid">
+              <div class="tech-icon-item" title="TypeScript">
+                <i class="devicon-typescript-plain colored"></i>
+                <span>TypeScript</span>
+              </div>
+              <div class="tech-icon-item" title="Node.js">
+                <i class="devicon-nodejs-plain colored"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="tech-icon-item" title="C#">
+                <i class="devicon-csharp-plain colored"></i>
+                <span>C#</span>
+              </div>
+              <div class="tech-icon-item" title="PostgreSQL">
+                <i class="devicon-postgresql-plain colored"></i>
+                <span>PostgreSQL</span>
+              </div>
+              <div class="tech-icon-item" title="Supabase">
+                <i class="devicon-supabase-plain colored"></i>
+                <span>Supabase</span>
+              </div>
+              <div class="tech-icon-item" title="Python">
+                <i class="devicon-python-plain colored"></i>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categoria 2: Front-end & Mobile -->
+          <div class="tech-category-group">
+            <h4 class="tech-group-subtitle"><i class="fa-solid fa-mobile-screen-button"></i> Front-end & Mobile</h4>
+            <div class="tech-icons-grid">
+              <div class="tech-icon-item" title="React">
+                <i class="devicon-react-original colored"></i>
+                <span>React</span>
+              </div>
+              <div class="tech-icon-item" title="React Native">
+                <i class="devicon-react-original colored"></i>
+                <span>React Native</span>
+              </div>
+              <div class="tech-icon-item" title="Vite">
+                <i class="devicon-vitejs-plain colored"></i>
+                <span>Vite</span>
+              </div>
+              <div class="tech-icon-item" title="Tailwind CSS">
+                <i class="devicon-tailwindcss-original colored"></i>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="tech-icon-item" title="HTML5 & CSS3">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML5 / CSS3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Categoria 3: Ferramentas & DevOps -->
+          <div class="tech-category-group">
+            <h4 class="tech-group-subtitle"><i class="fa-solid fa-wrench"></i> Ferramentas & DevOps</h4>
+            <div class="tech-icons-grid">
+              <div class="tech-icon-item" title="Git">
+                <i class="devicon-git-plain colored"></i>
+                <span>Git</span>
+              </div>
+              <div class="tech-icon-item" title="GitHub">
+                <i class="devicon-github-original colored"></i>
+                <span>GitHub</span>
+              </div>
+              <div class="tech-icon-item" title="Docker">
+                <i class="devicon-docker-plain colored"></i>
+                <span>Docker</span>
+              </div>
+              <div class="tech-icon-item" title="Postman">
+                <i class="devicon-postman-plain colored"></i>
+                <span>Postman</span>
+              </div>
+              <div class="tech-icon-item" title="VS Code">
+                <i class="devicon-vscode-plain colored"></i>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline de Evolução Section -->
+    <section class="section timeline-section" id="timeline">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-subtitle">Minha Jornada</span>
+          <h2 class="section-title">Timeline de Evolução Técnica</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline animate-on-scroll">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Fase 1</span>
+              <h3 class="timeline-role">Início dos Estudos & Lógica de Programação</h3>
+              <span class="timeline-company">Fundamentos</span>
+              <p class="timeline-desc">
+                Primeiros passos na programação com estudo intensivo de lógica, estrutura de dados, algoritmos e
+                desenvolvimento web básico (HTML, CSS, JS).
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Fase 2</span>
+              <h3 class="timeline-role">Primeiros Projetos & Entrada na Faculdade</h3>
+              <span class="timeline-company">Graduação ADS</span>
+              <p class="timeline-desc">
+                Ingresso no curso de Análise e Desenvolvimento de Sistemas. Criação das primeiras aplicações interativas
+                e estudo aprofundado de bancos de dados relacionais.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Fase 3</span>
+              <h3 class="timeline-role">Back-end, APIs REST & TypeScript</h3>
+              <span class="timeline-company">Especialização Técnica</span>
+              <p class="timeline-desc">
+                Transição focada para a engenharia de Back-end com Node.js, Express, TypeScript, segurança via JWT e
+                construção de APIs RESTful estruturadas.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Fase 4 (Atual)</span>
+              <h3 class="timeline-role">Automações, IA Aplicada & Clean Architecture</h3>
+              <span class="timeline-company">Desenvolvimento Profissional</span>
+              <p class="timeline-desc">
+                Desenvolvimento de sistemas de automação de processos, integração de modelos de IA generativa, extração
+                OCR e aplicação constante de Clean Architecture e SOLID em projetos reais.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato & Baixar CV Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-subtitle">Vamos conversar</span>
+          <h2 class="section-title">Entre em Contato</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info animate-on-scroll">
+            <h3>Disponível para oportunidades, projetos e consultorias</h3>
+            <p>
+              Quer você seja um recrutador buscando um desenvolvedor comprometido, uma empresa que precisa automatizar
+              processos ou um desenvolvedor querendo trocar ideias, será um prazer conversar.
+            </p>
+
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-regular fa-envelope"></i></div>
+                <div>
+                  <span class="info-label">E-mail Profissional</span>
+                  <a href="mailto:douglasleone09@gmail.com" class="info-value">douglasleone09@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                  <span class="info-label">WhatsApp</span>
+                  <a href="https://wa.me/5586999455452?text=Ol%C3%A1%20Douglas,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!" target="_blank" rel="noopener noreferrer" class="info-value">(86) 99945-5452</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div>
+                  <span class="info-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/douglas-leone-713a94376/" target="_blank"
+                    rel="noopener noreferrer" class="info-value">douglas-leone-713a94376</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                <div>
+                  <span class="info-label">GitHub</span>
+                  <a href="https://github.com/DouglasLeone/" target="_blank" rel="noopener noreferrer"
+                    class="info-value">github.com/DouglasLeone</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cv-download-box">
+              <a href="#" download="Douglas_Leone_CV.pdf" class="btn btn-primary btn-block">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                <span>Baixar Currículo Completo (PDF)</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form animate-on-scroll" id="contactForm">
+            <div class="form-group">
+              <label for="name">Seu Nome / Empresa</label>
+              <input type="text" id="name" name="name" placeholder="Ex: Maria Silva (Recrutadora)" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Seu E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Ex: maria@empresa.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Assunto</label>
+              <input type="text" id="subject" name="subject" placeholder="Ex: Oportunidade / Projeto de Automação"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" rows="5" placeholder="Escreva os detalhes da sua mensagem..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              <span>Enviar Mensagem</span>
+              <i class="fa-regular fa-paper-plane"></i>
+            </button>
+
+            <div class="form-toast" id="formToast"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 <strong>Douglas Leone</strong>. Desenvolvido com foco em utilidade real, código limpo e alta
+        performance.</p>
+      <a href="#hero" class="back-to-top" aria-label="Voltar ao topo" title="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
