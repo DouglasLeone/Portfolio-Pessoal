@@ -443,18 +443,21 @@ button {
 .about-grid {
   max-width: 900px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .about-text p {
   color: var(--text-secondary);
   font-size: 1.05rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .about-lead {
   font-size: 1.2rem !important;
   color: var(--text-primary) !important;
   font-weight: 500;
+  text-align: center;
 }
 
 /* Philosophy Box */
@@ -462,7 +465,7 @@ button {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: 30px;
+  padding: 32px 30px;
   margin: 36px 0;
   backdrop-filter: blur(10px);
 }
@@ -474,6 +477,7 @@ button {
   color: var(--text-primary);
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -483,14 +487,19 @@ button {
 
 .philosophy-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 20px;
+  text-align: left;
 }
 
 .philosophy-item {
   display: flex;
   align-items: flex-start;
   gap: 14px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  padding: 16px;
+  border-radius: var(--radius-sm);
 }
 
 .philosophy-icon {
@@ -564,6 +573,7 @@ button {
   padding: 28px;
   backdrop-filter: blur(10px);
   transition: var(--transition);
+  text-align: center;
 }
 
 .skill-category-card:hover {
@@ -579,6 +589,7 @@ button {
 .category-header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 14px;
   margin-bottom: 22px;
 }
@@ -604,6 +615,7 @@ button {
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 8px;
 }
 
@@ -631,6 +643,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  text-align: left;
 }
 
 .diferenciais-list li {
@@ -662,6 +675,7 @@ button {
   padding: 30px;
   backdrop-filter: blur(10px);
   transition: var(--transition);
+  text-align: center;
 }
 
 .service-card:hover {
@@ -671,8 +685,8 @@ button {
 }
 
 .service-icon {
-  width: 50px;
-  height: 50px;
+  width: 54px;
+  height: 54px;
   border-radius: var(--radius-sm);
   background: var(--accent-glow);
   border: 1px solid var(--accent-border);
@@ -680,8 +694,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.35rem;
-  margin-bottom: 20px;
+  font-size: 1.4rem;
+  margin: 0 auto 20px;
 }
 
 .service-card h3 {
