@@ -1489,18 +1489,50 @@ button {
   /* Contact & Footer Mobile */
   .info-item {
     gap: 12px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 
   .info-icon {
     width: 38px;
     height: 38px;
     font-size: 0.95rem;
+    margin: 0 auto;
   }
 
   .footer-container {
     flex-direction: column;
     gap: 16px;
     text-align: center;
+  }
+
+  /* Forçar Centralização Total no Mobile */
+  .about-text,
+  .philosophy-grid,
+  .diferenciais-list,
+  .contact-info,
+  .timeline-content,
+  .project-content {
+    text-align: center !important;
+  }
+
+  .philosophy-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .philosophy-icon {
+    margin-bottom: 10px;
+  }
+
+  .diferenciais-list li {
+    justify-content: center;
+  }
+
+  .project-techs, .project-filters, .skill-tags {
+    justify-content: center;
   }
 }
 
