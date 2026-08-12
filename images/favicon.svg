@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fundo Zinc/Dark -->
+  <rect width="64" height="64" rx="16" fill="#18181B"/>
+  
+  <!-- Tag Esquerda < -->
+  <path d="M 15 24 L 7 32 L 15 40" stroke="#6366F1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Texto DL -->
+  <text x="32" y="34" dominant-baseline="central" text-anchor="middle" 
+        fill="#FAFAFA" font-family="-apple-system, sans-serif" font-weight="700" font-size="20">
+    DL
+  </text>
+  
+  <!-- Tag Direita > -->
+  <path d="M 49 24 L 57 32 L 49 40" stroke="#6366F1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
