@@ -311,6 +311,10 @@ button {
   z-index: 1;
 }
 
+.hero-content, .hero-visual {
+  min-width: 0; /* Evita que o grid estique além da tela (blowout) */
+}
+
 .hero-badge {
   display: inline-flex;
   align-items: center;
@@ -394,6 +398,7 @@ button {
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-lg);
   overflow: hidden;
+  max-width: 100%;
 }
 
 .code-header {
@@ -428,6 +433,7 @@ button {
   font-family: var(--font-code);
   font-size: 0.875rem;
   line-height: 1.7;
+  overflow-x: auto;
 }
 
 .code-keyword { color: var(--accent-purple); font-weight: 600; }
